@@ -7,7 +7,7 @@ import './App.css'
 import { Form } from './forms/App.jsx'
 
 import InfiniteScroll from './infiniteScroll/simple.tsx'
-
+import Accordion from './components/accordion/page.tsx'
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -21,7 +21,7 @@ class App extends React.Component {
   }
   render() {
     return <>
-      <InfiniteScroll />
+      <Accordion />
     </>
   }
 
